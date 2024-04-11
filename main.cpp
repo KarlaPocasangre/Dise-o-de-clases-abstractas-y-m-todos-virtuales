@@ -1,7 +1,8 @@
 #include <iostream>
-#include "Cliente.h"
-#include "Estudiante.h"
+//#include "Cliente.h"
+//#include "Estudiante.h"
 #include "Trabajador.h"
+// Karla Estefany Hernandez Pocasangre Ing Sistemas Guia 9 HP23I04002
 
 using namespace std;
 
@@ -17,12 +18,15 @@ int main()
     //cout<< est.getPromedio() << endl;
 
     Trabajador tb;
-    tb =  Trabajador(1, "Juan", "Perez", 600);
-    cout <<  tb.getNombre() << endl;
-    cout << tb.getTotalPagar() <<endl;
-
-
+    tb =  Trabajador(1, "Karla", "Hernandez", 550);
+    cout << "\nCodigo\tNombre\tApellido\tTotalPagar\tSueldoMensual\tDescuentoIsss\tDescuentoAFP\tDescuentoIsr\n";
+    cout << tb.getCodigo() << "\t";
+    cout << tb.getNombre() << "\t";
+    cout << tb.getApellido() << "\t";
+    cout << tb.getTotalPagar() <<"\t";
+    cout <<"\t"<< tb.getSueldoMensual() <<"\t";
+    cout <<"\t"<< tb.getDescuentoIsss() <<"\t";
+    cout <<"\t"<< tb.getDescuentoAfp() <<"\t";
+    cout <<"\t"<< tb.getDescuentoIsr() <<"\n";
     return 0;
 }
-
-

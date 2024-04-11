@@ -1,19 +1,17 @@
 # depslib dependency file v1.0
-1712804334 source:c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\main.cpp
+1712813678 source:c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\main.cpp
 	<iostream>
-	"Cliente.h"
-	"Estudiante.h"
 	"Trabajador.h"
 
 1712790515 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\cliente.h
 	"Persona.h"
 
-1712790494 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\persona.h
+1712810763 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\persona.h
 	<string.h>
 
 1712790494 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\estudiante.h
 	"Persona.h"
 
-1712804552 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\trabajador.h
+1712813875 c:\users\karla\videos\universidad de sonsonate c1 2024\programacion 2\periodo 2\semana10\trabajador.h
 	"Persona.h"
 
